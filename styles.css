@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@500;700&family=Montserrat:ital,wght@1,500;1,700&family=Open+Sans:wght@400;600;700&family=Outfit:wght@300;400;600&family=Poppins:wght@700&family=Public+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@500;700&family=Montserrat:ital,wght@1,500;1,700&family=Open+Sans:wght@400;600;700&family=Outfit:wght@300;400;600&family=Poppins:wght@700&family=Public+Sans:wght@300;400;700&display=swap');
+
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    /*paragraphs*/
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    /*background, headings, buttons*/
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: var(--very-light-gray);
+}
+
+.card{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px auto;
+    border-radius: 20px;
+   
+}
+
+article{
+    text-align: left;
+    padding: 20px 30px;
+}
+
+
+
+h1, h2, h3{
+    color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display', sans-serif;
+   
+}
+
+p{
+    color: var(--transparent-white);
+  
+}
+
+.part-one{
+    background-color: var(--bright-orange);
+    height: 260px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.part-two{
+    background-color: var(--dark-cyan);
+    height: 260px;
+}
+
+.part-three{
+    background-color: var(--very-dark-cyan);
+    height: 260px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+button{
+    background-color: var(--very-light-gray);
+    border-radius: 10px;
+    cursor: pointer;
+}
