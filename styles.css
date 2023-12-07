@@ -30,8 +30,6 @@ body{
     align-items: center;
     flex-direction: column;
     margin: 70px auto;
-    border-radius: 20px;
-   
 }
 
 article{
@@ -98,4 +96,50 @@ button{
 
 .btn3{
     color: var(--very-dark-cyan);
+}
+
+
+@media screen and (min-width: 800px){
+    .card{
+        flex-direction: row;
+        margin: 250px auto;
+        max-width: 800px;
+    }
+
+    img{
+        width: 25%;
+        padding-top: 20px;
+    }
+
+    h1, h2, h3{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 29px;
+    }
+
+    .part-one{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+        height: 450px;
+        width: 300px;
+    }
+    
+    .part-two{
+        height: 450px;
+        width: 300px;
+        padding-right: 35px;
+    } 
+    
+    .part-three{
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 7px;
+        height: 450px;
+        width: 300px;
+    }
+
+    button{
+        margin-top: 50px;
+    }
 }

@@ -21,9 +21,9 @@ Users should be able to:
 ### Screenshot
 
 **Mobile version**
-![](./screenshot.jpg)
+![](./mobile_solution.jpg)
 **Desktop version**
-![](./screenshot.jpg)
+![](./desktop_solution.jpg)
 
 
 ### Built with
