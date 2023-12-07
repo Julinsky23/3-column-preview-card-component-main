@@ -20,7 +20,6 @@
 body{
     
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
     background-color: var(--very-light-gray);
 }
 
@@ -40,40 +39,63 @@ article{
     padding: 20px 30px;
 }
 
-
+img{
+    width: 17%;
+}
 
 h1, h2, h3{
     color: var(--very-light-gray);
     font-family: 'Big Shoulders Display', sans-serif;
-   
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10px 0;
 }
 
 p{
     color: var(--transparent-white);
-  
+    font-size: 15px;
+    line-height: 140%;
+    padding-bottom: 15px;
+    padding-right: 20px;
 }
 
 .part-one{
     background-color: var(--bright-orange);
-    height: 260px;
+    height: 280px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 .part-two{
     background-color: var(--dark-cyan);
-    height: 260px;
+    height: 280px;
 }
 
 .part-three{
     background-color: var(--very-dark-cyan);
-    height: 260px;
+    height: 280px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
 button{
     background-color: var(--very-light-gray);
-    border-radius: 10px;
+    border-radius: 17px;
     cursor: pointer;
+    width: 110px;
+    height: 35px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn1{
+    color: var(--bright-orange);
+}
+
+.btn2{
+    color: var(--dark-cyan);
+}
+
+.btn3{
+    color: var(--very-dark-cyan);
 }
